@@ -1,0 +1,115 @@
+div.wqn-thoitiet{
+	width: 100%;
+	font-family: arial;
+	font-size: 13px;
+	line-height: 21px;
+}
+div.wqn-thoitiet .homnay-inner{
+	border: 1px #dbdbdb solid;
+	padding: 0 10px;
+}
+div.wqn-thoitiet .homnay-inner1{
+	max-width: 290px;
+	margin: 0 auto;
+}
+div.wqn-thoitiet .homnay-inner h3{
+	margin: 0;
+	padding: 10px 0; 
+	font-size: 16px;
+}
+div.wqn-thoitiet .homnay .wqn-curent {
+	text-align: center;
+	width: 100%;
+}
+div.wqn-thoitiet .homnay .current-info{ 
+	font-family: "Segoe UI Light","Segoe WP Light","Segoe WP","Segoe UI",Arial,Sans-Serif;
+    font-size: 80px;
+    line-height: normal;
+    direction: ltr;
+    line-height: 1;
+}
+div.wqn-thoitiet .homnay .current-info .type {
+    font-family: "Segoe UI Light","Segoe WP Light","Segoe WP","Segoe UI",Arial,Sans-Serif;
+    font-size: 30px;
+    line-height: 1.167;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+div.wqn-thoitiet .precipicn {
+	display: none;
+}
+div.wqn-thoitiet .homnay .current-info .type a {
+    display: none;
+}
+div.wqn-thoitiet .homnay .weather-info ul li:nth-child(1),
+div.wqn-thoitiet .homnay .weather-info ul li:nth-child(3),
+div.wqn-thoitiet .homnay .weather-info ul li:nth-child(6)
+{
+	display: none;
+}
+
+div.wqn-thoitiet .homnay .weather-info ul{
+	margin: 0;
+    padding: 10px 0;
+}
+div.wqn-thoitiet .homnay .current{
+	float: left;
+}
+div.wqn-thoitiet .homnay .type {
+    float: left;
+}
+
+/* div.wqn-thoitiet .homnay .current-info, div.wqn-thoitiet .homnay .weather-info, div.wqn-thoitiet .homnay .current, div.wqn-thoitiet .homnay .type {
+    display: inline-block;
+} */
+div.wqn-thoitiet .homnay .weather-info{
+	float: right;
+}
+div.wqn-thoitiet .homnay .weather-info > span{
+	display: none;
+}
+div.wqn-thoitiet .homnay{
+	width: 100%;
+}
+
+div.wqn-thoitiet .ngaymai-inner{
+	border: 1px #dbdbdb solid;
+	border-top: 0;
+	border-right: 0;
+	padding: 10px 0;
+}
+div.wqn-thoitiet .ngaymai, div.wqn-thoitiet .ngaykia{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+div.wqn-thoitiet .ngaymai p, div.wqn-thoitiet .ngaykia p , div.wqn-thoitiet .ngaymai img, div.wqn-thoitiet .ngaykia img{
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	vertical-align: bottom;
+}
+div.wqn-thoitiet .ngaymai p:after:nth-child(1){
+	content: " - ";
+}
+
+div.wqn-thoitiet .ngaykia-inner{
+	border: 1px #dbdbdb solid;
+	border-top: 0;
+	padding: 10px 0;
+}
+div.wqn-thoitiet .ngaykia p:after:nth-child(1){
+	content: " - ";
+}
+div.wqn-thoitiet .ngaymai img, div.wqn-thoitiet .ngaykia img{
+
+}
+div.wqn-thoitiet .ngaykia {
+	width: 50%;
+	float: left;
+}
+.ha_clear{
+	clear: both;
+	height: 0;
+}
